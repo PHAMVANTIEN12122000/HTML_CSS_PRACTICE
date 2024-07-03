@@ -1,0 +1,18 @@
+.Block-Bem{
+    width: 100%;
+    border: 1px solid #000;
+}
+.Block-Bem_img{
+    width: 48%; 
+    float:inline-end;
+}
+.Block-Bem_name{
+    width: 48%;
+    float: inline-start;
+}
+.Block-Bem--color{
+    background-color: rgb(225, 249, 252);
+}
+.Block-Bem_name--color{
+    color: red;
+}
