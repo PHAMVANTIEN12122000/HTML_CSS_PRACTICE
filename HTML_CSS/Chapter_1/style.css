@@ -1,6 +1,12 @@
 .Block-Bem{
     width: 100%;
     border: 1px solid #000;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    /* overflow: hidden */
+    /* display: flex; */
+    display: grid;
 }
 .Block-Bem_img{
     width: 48%; 
@@ -13,6 +19,9 @@
 .Block-Bem--color{
     background-color: rgb(225, 249, 252);
 }
-.Block-Bem_name--color{
-    color: red;
+.Block-Bem_name--primary{
+    background-color: rgb(6, 79, 128);
+}
+.Block-Bem_name--secondary{
+    background-color: red;
 }
