@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <h3>class and id : example </h3>
+    <h2>class and id : example </h2>
     <div>
         <!-- class và id  -->
        
@@ -66,28 +66,361 @@
             </div>
     </div>
     
-    <h3>BEM : example </h3>
+    <h2> BEM EX </h2>
+    <div>
 
-    <div class="Block-Bem">
-        
-        <div class="Block-Bem_img">
-            <img src="../Chapter_1/picture/daily_ui.jpg" alt="">
-        </div>
-
-        <div class="Block-Bem_name Block-Bem--color">
-
-            <h4 class="Block-Bem_name_title Block-Bem_name--secondary ">Right on !</h4>
-
-            <p class="Block-Bem_name_content ">BEM (Block, Element, Modifier) là một phương pháp luận đặt tên lớp CSS 
-                để giúp các nhà phát triển web viết mã CSS có cấu trúc và có thể tái sử dụng một cách dễ dàng.
-                 BEM tạo ra một quy ước đặt tên nhất quán và rõ ràng, giúp việc duy trì và mở rộng mã CSS trở nên dễ dàng hơn.</p>
+        <h3>BEM : example 1 </h3>
+        <div class="Block-Bem">
             
-            <button class="Block-Bem_name_button Block-Bem_name--secondary ">
-                continue
-            </button>
-
+            <div class="Block-Bem_img">
+                <img src="../Chapter_1/picture/daily_ui.jpg" alt="">
+            </div>
+    
+            <div class="Block-Bem_name Block-Bem--color">
+    
+                <h4 class="Block-Bem_name_title Block-Bem_name--secondary ">Right on !</h4>
+    
+                <p class="Block-Bem_name_content ">BEM (Block, Element, Modifier) là một phương pháp luận đặt tên lớp CSS 
+                    để giúp các nhà phát triển web viết mã CSS có cấu trúc và có thể tái sử dụng một cách dễ dàng.
+                     BEM tạo ra một quy ước đặt tên nhất quán và rõ ràng, giúp việc duy trì và mở rộng mã CSS trở nên dễ dàng hơn.</p>
+                
+                <button class="Block-Bem_name_button Block-Bem_name--secondary ">
+                    continue
+                </button>
+    
+            </div>
+    
         </div>
-
+    
+        <h3>BEM : example 2</h3>
+        <div class="MENU">
+            
+            <div class="MENU-HEADER">
+                <ul>
+                    <li class="MENU-HEADER_NAVBAR"></li>
+                    <li class="MENU-HEADER_TITLE"></li>
+                    <li class="MENU-HEADER_SEARCH"></li>
+                </ul>
+            </div>
+            <div class="MENU-PICTURE">
+    
+            </div>
+            <div class="MENU-FOOTER">
+                <div class="MENU-FOOTER-COFFEE">
+                    <ul>
+                        <li class="MENU-FOOTER-COFFEE_SHOTS"></li>
+                        <li class="MENU-FOOTER-COFFEE_SML"></li>
+                        <li class="MENU-FOOTER-COFFEE_LRG"></li>
+                    </ul>
+                </div>
+    
+                <div class="MENU-FOOTER-DONUTS">
+                    <ul>
+                        <li class="MENU-FOOTER-DONUTS_SHOTS"></li>
+                        <li class="MENU-FOOTER-DONUTS_SML"></li>
+                        <li class="MENU-FOOTER-DONUTS_LRG"></li>
+                    </ul>
+                </div>
+                    
+            </div>
+        </div>
+    
+        <h3> EX1_BEM </h3>
+        <img src="../Chapter_1/picture/EX1_BEM.jpg" alt="">
+        <div>
+            
+            <div class="card card--primary">
+                <div class="card_picture"></div>
+                <div class="card_navbar"></div>
+                <div class="card_title"></div>
+                <div class="card_color card_color--primary"></div>
+                <div class="card_size"></div>
+                <div class="card_btn card_btn--primary"></div>
+            </div>
+        
+            <div class="card card--secondary">
+                <div class="card_picture"></div>
+                <div class="card_navbar"></div>
+                <div class="card_title"></div>
+                <div class="card_color card_color--secondary"></div>
+                <div class="card_size"></div>
+                <div class="card_btn  card_btn--secondary"></div>
+            </div>
+    
+        </div>
+        
+        <h3> EX2_BEM </h3>
+        <img src="../Chapter_1/picture/EX2_BEM.jpg" alt="">
+        <div>
+    
+            <div class="account account--signin">
+                <div class="account__logo"></div>
+                <div class="account-input account-input--signin">
+                    <div class="account-input__use"></div>
+                    <div class="account-input__password"></div>
+                </div>
+                <div class="account__forget"></div>
+                <div class="account-btn account-btn--signin">
+                    <div class="account-btn__signin"></div>
+                    <div class="account-btn__signup"></div>
+                </div>
+            </div>
+        
+            <div class="account account--signup">
+                <div class="account__logo"></div>
+                <div class="account-input account-input--signup">
+                    <div class="account-input__use"></div>
+                    <div class="account-input__password"></div>
+                    <div class="account-input__resetpassword"></div>
+                </div>
+                <div class="account-btn account-btn--signup">
+                    <div class="account-btn__signup"></div>
+                </div>
+            </div>
+        
+            <h3>result EX2_BEM</h3>
+            <div class="account account--signin">
+                <div class="account__logo"></div>
+                <div class="account__input">
+                    <div class="account__username"></div>
+                    <div class="account__password"></div>
+                </div>
+                <div class="account__forget"></div>
+                <div class="account__buttons">
+                    <div class="account__button account__button--signin"></div>
+                    <div class="account__button account__button--signup"></div>
+                </div>
+            </div>
+            
+            <div class="account account--signup">
+                <div class="account__logo"></div>
+                <div class="account__input">
+                    <div class="account__username"></div>
+                    <div class="account__password"></div>
+                    <div class="account__resetpassword"></div>
+                </div>
+                <div class="account__buttons">
+                    <div class="account__button account__button--signup"></div>
+                </div>
+            </div>
+    
+        </div>
+        
+        <h3> EX3_BEM </h3>
+        <img src="../Chapter_1/picture/EX3_BEM.jpg" alt="">
+        <div>
+    
+            <div class="card card--chernivtsy">
+                <div class="card__location"></div>
+                <div class="card__date"></div>
+                <div class="card__temperature"></div>
+            </div>
+        
+            <div class="card card--odessa">
+                <div class="card__location"></div>
+                <div class="card__dated"></div>
+                <div class="card__temperature"></div>
+            </div>
+        
+            <div class="card card--kiev">
+                <div class="card__location"></div>
+                <div class="card__date"></div>
+                <div class="card__temperature"></div>
+            </div>
+    
+        </div>
+    
+        <h3> EX4_BEM</h3> 
+        <img src="../Chapter_1/picture/EX4_BEM.jpg" alt="">
+        <div> 
+            
+            <div class="card">
+        
+                <div class="card__displaycolor card__displaycolor--purple-pink"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+        
+                <div class="card__displaycolor card__displaycolor--rose-gold"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--darkblue-purple"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--lightpurple-darkpurple"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--lightpurple-darkblue"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--green-blue-sky"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--lightpink-darkpink"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+        
+            <div class="card">
+                
+                <div class="card__displaycolor card__displaycolor--dark-blue-blue"></div>
+        
+                <div class="card__colorcode">
+        
+                    <div class="card__line--first">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+                    <div class="card__line--second">
+                        <div class="card__colordots"></div>
+                        <div class="card__hexcode"></div>
+                    </div>
+        
+        
+                </div>
+            </div>
+    
+        </div>    
+        <h3> EX5_BEM </h3>
+        <img src="../Chapter_1/picture/EX5_BEM.jpg" alt="">
+        <div class="product">
+            <div class="product__information">
+                <div class="product__picture"></div>
+                <div class="product__name"></div>
+                <div class="product__content"></div>
+                <div class="product__price"></div>
+            </div>
+            <div class="product__pay">
+                <div class="product-pay__title">
+                    <div class="product-pay__icon"></div>
+                    <div class="product-pay__name"></div>
+                </div>
+                <div class="product-pay__content">
+                    <div class="product-pay__holder"></div>
+                    <div class="product-pay__number"></div>
+                    <div class="product-pay__date"></div>
+                    <div class="product-pay__cvc product-pay__cvc--hidden"></div>
+                </div>
+                <div class="product-pay__btn"></div>
+            </div>
+        </div>
     </div>
+
+    
+
 </body>
 </html>
